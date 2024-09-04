@@ -22,7 +22,7 @@ public class Problem4 {
                 System.out.print("Output : " + (Integer.parseInt(arrInput[0]) * Integer.parseInt(arrInput[1])));
             } else if (input.contains("/")) {
                 String[] arrInput = input.split("/");
-                System.out.print("Output : " + (Integer.parseInt(arrInput[0]) / Integer.parseInt(arrInput[1])));
+                System.out.print("Output : " + (Double.parseDouble(arrInput[0]) / Double.parseDouble(arrInput[1])));
             } else {
                 System.out.print("Operator not found.");
             }
